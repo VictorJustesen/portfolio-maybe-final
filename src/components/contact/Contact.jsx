@@ -1,8 +1,8 @@
 import React from 'react'
-import './About.css'
+import './Contact.css'
 
 
-export default function About(){return(
+export default function Contact(){return(
 
-<h1>hello</h1>
+<h1>contact</h1>
 )}
