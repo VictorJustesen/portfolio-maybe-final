@@ -1,0 +1,11 @@
+#right{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0;
+    height: 100%;
+    background-color: var(--bg);
+    width: 4rem;
+    overflow: hidden;
+    
+    }

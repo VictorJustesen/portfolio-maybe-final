@@ -1,0 +1,35 @@
+.landing__container{display: flex;
+flex-direction: column;
+justify-content: center;
+
+text-align: left ;
+align-self: center;
+margin-top: 10rem;
+}
+
+.laheading{
+    color: var(--pop);
+    font-size: 5rem;
+    font-weight: bold;
+
+ 
+    
+}
+
+.lasubheading {color:var(--textoff);
+    font-size: 3rem;
+font-weight: bold;}
+    
+
+.latext{
+    width: 50%;
+  text-align: left ;
+  font-weight: bold
+  
+}
+
+.labtn {align-self: center;}
+.labtn > a{
+    text-align: center;
+    width: 100px;
+}

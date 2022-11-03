@@ -4,5 +4,7 @@ import './Ability.css'
 
 export default function Ability(){return(
 
-<h1>hello</h1>
+<div>
+    <h1>Ability</h1>
+</div>
 )}

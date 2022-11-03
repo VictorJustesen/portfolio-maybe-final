@@ -9,19 +9,25 @@ border: 0;
 outline: 0;
 list-style: none;
 text-decoration: none;
-border: 0.5px solid #ffff;
+
 font-family: 'Inter', sans-serif;
 font-family: 'Open Sans', sans-serif;
 }
 
+
 :root{
-  --bg: darkblue;
-  --primary: lightblue;
+  --bg: #1f1f38;
+  --bgoff:#112240;
+  --pop: #4db5ff;
   --white:#ffff;
   --black:black;
-  --secondary:blue;
+  --text:#8892b0;
+  --textoff:#a8b2d1;
   --offwhite:lightgray;
   --trans:0.4s ;
+  --container-container-width-lg: 70%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%;
 
 }
 
@@ -30,30 +36,50 @@ font-family: 'Open Sans', sans-serif;
 }
 /*line height
 cool background*/
+
 body{background-color: var(--bg);
-color: var(--primary);
-}
+color: var(--text);
+height: 10000px;
+line-height: 1.7;
 
+}
+.App{display:flex;
+  flex-direction: column;
+justify-content: center;
+}
 section {
-  margin-top: 6rem;
+  
+  margin-top:6rem
 
 }
 
-section > h1,section > h4{
-  color:var(--primary)
-}
+.pop{color: var(--pop)}
 
-.secondary{
-  color: var(--secondary)
+.heading {color: var(--pop);
+font-size: 3rem;
 }
+.subheading {color:var(--textoff);
+font-size: 3rem;}
 
+.textoff{
+  color: var(--textoff);
+  font-size: 2rem;
+}
+.text{
+  color: var(--text);
+  font-size: 1.2rem;
+  
+}
 .btn{
   cursor: pointer;
   display: inline-block;
-border-radius: 0.3rem;
-color: var(--primary);
-border: 1px solid var(--secondary);
+  width: max-content;
+border-radius: 0.5rem;
+color: var(--pop);
+border: 1px solid var(--pop);
 transition: var(--trans);
+padding: 0.75rem 1.2rem;
+margin: 0.5rem;
 }
 
 .btn:hover{
@@ -64,8 +90,25 @@ transition: var(--trans);
 .img{display: block;
 width: 100%;
 object-fit: cover;}
+.container{width: var(--container-container-width-lg)}
 
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-width-md);
+  }
 
-/*
-small big screen
-*/
+  section {
+    margin-top: 6rem;
+  }
+}
+
+/* ================ MEDIA QUERIES (SMALL DEVICES) ================= */
+@media screen and (max-width: 600px) {
+  .container {
+    width: var(--container-width-sm);
+  }
+
+  section > h2 {
+    margin-bottom: 2rem;
+  }
+}
