@@ -3,6 +3,9 @@
 *, *::after, *::before {
   box-sizing: border-box;
 }
+*:not(i){
+    font-family: 'Inter', sans-serif;
+}
 *{margin:0;
 padding:0;
 border: 0;
@@ -10,8 +13,7 @@ outline: 0;
 list-style: none;
 text-decoration: none;
 
-font-family: 'Inter', sans-serif;
-font-family: 'Open Sans', sans-serif;
+
 }
 
 
@@ -39,7 +41,7 @@ cool background*/
 
 body{background-color: var(--bg);
 color: var(--text);
-height: 10000px;
+
 line-height: 1.7;
 
 }
@@ -57,9 +59,12 @@ section {
 
 .heading {color: var(--pop);
 font-size: 3rem;
+margin: 3rem;
 }
 .subheading {color:var(--textoff);
-font-size: 3rem;}
+font-size: 2rem;
+margin: 2rem;
+}
 
 .textoff{
   color: var(--textoff);
@@ -83,7 +88,7 @@ margin: 0.5rem;
 }
 
 .btn:hover{
-  background-color: var(--white);
+  background-color: var(--offwhite);
   color: var(--bg);
 }
 

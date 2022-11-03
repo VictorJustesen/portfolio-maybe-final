@@ -28,7 +28,8 @@ font-weight: bold;}
   
 }
 
-.labtn {align-self: center;}
+.labtn {align-self: center;
+margin-top: 3rem;}
 .labtn > a{
     text-align: center;
     width: 100px;

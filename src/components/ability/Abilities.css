@@ -1,0 +1,71 @@
+
+
+
+.abilities__container{
+    align-self: center;
+    text-align: center; 
+    
+    margin-top: 10rem;
+    
+ }
+
+ .portfolio{display: flex;
+flex-direction: row;
+align-items: center;
+    
+    
+    justify-content: center;}
+ .skills{
+    
+    display:grid ;
+    grid-template-columns: 14rem 15rem;
+    align-items: center;
+    
+    gap: 1rem;
+    justify-content: center;
+ }
+ 
+.devicons{
+    text-align: center;
+    font-size: 4rem;
+    background-color: var(--bgoff);
+   
+}
+
+.devicons:hover {background-color: var(--pop);
+    transition: var(--trans);}
+
+.job{background-color: var(--bgoff); 
+    margin: 1rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+    
+.job:hover {background-color: var(--pop);
+    transition: var(--trans);}
+
+.buttons{display:flex ;
+   
+    align-items: center; 
+    justify-content: center;}
+
+.works{display: flex;
+flex-direction: column;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .portfolio {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .works {
+      flex-direction: row;
+    }
+  
+    .jobdesc{width:60%;}
+    .job{}
+
+  }
