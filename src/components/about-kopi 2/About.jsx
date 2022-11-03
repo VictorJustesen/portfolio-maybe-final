@@ -4,5 +4,5 @@ import './About.css'
 
 export default function About(){return(
 
-<h1>hello</h1>
+<h1>about</h1>
 )}
