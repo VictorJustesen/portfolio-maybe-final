@@ -8,5 +8,15 @@
     flex-direction: column;
     text-align: center;
     align-items: center;
+    margin-top: 12rem;
 }
 
+@media screen and (max-width: 600px) {
+    .contact__container {
+      width: 75%;
+      
+    }
+  
+}
+  
+  

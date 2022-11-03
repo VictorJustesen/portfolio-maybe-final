@@ -5,7 +5,7 @@ import './Sideheaderright.css'
 export default function Sideheaderright(){return(
 
 <div id='right'>
-    <h1>right</h1>
+    <a href="mailto: gingerlord.and.co@gmail.com" className='righttext'>Gingerlord.and.co@gmail.com</a>
     
 </div>
 )}

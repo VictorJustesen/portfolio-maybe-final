@@ -7,5 +7,15 @@
     background-color: var(--bg);
     width: 4rem;
     overflow: hidden;
-    
+    text-align: left;
+    justify-content: center;
+    display: flex;
+
     }
+
+    .righttext{
+        margin-top: 5rem;
+        writing-mode: vertical-rl;
+        text-orientation: mixed;
+    font-size: 1rem;
+color: var(--pop);}

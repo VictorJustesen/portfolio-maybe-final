@@ -25,7 +25,7 @@ export default function Abilities(){
             <Skill text="JavaScript" classtext="devicon-javascript-plain colored" level="mellem"/>
         </div>
         </div>
-        <div className="jobsogtekst">   
+      
 
         
             <div className="works">
@@ -44,7 +44,7 @@ export default function Abilities(){
 
 
 
-        </div>
+        
         </div>
     </section>
 

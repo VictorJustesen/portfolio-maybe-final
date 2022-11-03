@@ -18,7 +18,7 @@ align-items: center;
  .skills{
     
     display:grid ;
-    grid-template-columns: 14rem 15rem;
+    grid-template-columns: 13rem 13rem;
     align-items: center;
     
     gap: 1rem;
@@ -75,3 +75,14 @@ flex-direction: column;
     .job{}
 
   }
+
+    /* ================ MEDIA QUERIES (SMALL DEVICES) ================= */
+    @media screen and (max-width: 600px) {
+        .works{
+           width: 80%;
+           align-self: center;
+        }
+      
+     
+        }
+      
