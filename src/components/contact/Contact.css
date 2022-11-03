@@ -1,0 +1,12 @@
+.contact__container{
+    align-self: center;
+    justify-items: center;
+    border-radius: 2rem;
+    background-color: var(--bgoff);
+    border: 1px solid var(--pop);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+

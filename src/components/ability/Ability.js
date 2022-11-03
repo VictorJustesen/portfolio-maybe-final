@@ -10,7 +10,7 @@ export default function Ability(props){
           <div className="devicons">
             <i class={props.classtext}></i>
             </div>
-           <div>{props.text}</div>
+           <div className="skilldesc">{props.text}</div>
 
 
 

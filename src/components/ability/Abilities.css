@@ -22,17 +22,21 @@ align-items: center;
     align-items: center;
     
     gap: 1rem;
-    justify-content: center;
+    justify-content: center
+    ;
  }
- 
+.skill{ border: 1px solid var(--pop);
+border-radius: 2rem;
+background-color: var(--bgoff)
+}
 .devicons{
     text-align: center;
     font-size: 4rem;
-    background-color: var(--bgoff);
-   
+    
 }
 
-.devicons:hover {background-color: var(--pop);
+.skilldesc{color: var(--white);}
+.skill:hover {background-color: var(--pop);
     transition: var(--trans);}
 
 .job{background-color: var(--bgoff); 
@@ -40,6 +44,8 @@ align-items: center;
 display: flex;
 flex-direction: column;
 align-items: center;
+border: 1px solid var(--pop);
+border-radius: 2rem;
 }
     
 .job:hover {background-color: var(--pop);
@@ -62,7 +68,7 @@ flex-direction: column;
     }
   
     .works {
-      flex-direction: row;
+      margin-top: 3rem;
     }
   
     .jobdesc{width:60%;}
