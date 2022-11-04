@@ -25,6 +25,7 @@ align-items: center;
     justify-content: center
     ;
  }
+
 .skill{ border: 1px solid var(--pop);
 border-radius: 2rem;
 background-color: var(--bgoff)
@@ -35,9 +36,12 @@ background-color: var(--bgoff)
     
 }
 
-.skilldesc{color: var(--white);}
+.skilldesc{color: var(--pop); font-size: 1.5rem;}
 .skill:hover {background-color: var(--pop);
-    transition: var(--trans);}
+    transition: var(--trans);
+    scale: 1.1;
+    }
+    .skill:hover .skilldesc{color: var(--bg)}
 
 .job{background-color: var(--bgoff); 
     margin: 1rem;
@@ -49,8 +53,13 @@ border-radius: 2rem;
 }
     
 .job:hover {background-color: var(--pop);
-    transition: var(--trans);}
+    transition: var(--trans);scale: 1.1;
+    color: var(--bg);
+}
 
+.job:hover .btn{color: var(--bg);
+border: 1px solid var(--bg)}
+.job:hover .jobname{color: var(--bg)}
 .buttons{display:flex ;
    
     align-items: center; 
@@ -58,8 +67,11 @@ border-radius: 2rem;
 
 .works{display: flex;
 flex-direction: column;
+margin-left: 2rem;
 }
 
+.jobname{color: var(--pop)}
+.jobdesc{width:90%;}
 
 @media screen and (max-width: 1024px) {
     .portfolio {

@@ -26,7 +26,7 @@ text-decoration: none;
   --text:#8892b0;
   --textoff:#a8b2d1;
   --offwhite:lightgray;
-  --trans:0.4s ;
+  --trans:0.6s ;
   --container-container-width-lg: 70%;
   --container-width-md: 80%;
   --container-width-sm: 90%;
@@ -43,6 +43,7 @@ body{background-color: var(--bg);
 color: var(--text);
 
 line-height: 1.7;
+height:100%
 
 }
 .App{display:flex;
@@ -87,10 +88,9 @@ padding: 0.75rem 1.2rem;
 margin: 0.5rem;
 }
 
-.btn:hover{
-  background-color: var(--offwhite);
-  color: var(--bg);
-}
+.btn:hover {background-color: var(--pop);
+  transition: var(--trans);scale: 1.1;
+  color: var(--bg);}
 
 .img{display: block;
 width: 100%;

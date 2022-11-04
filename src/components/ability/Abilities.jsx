@@ -35,7 +35,7 @@ export default function Abilities(){
                
                 <Work jobname="Portfolio" glink="https://github.com/VictorJustesen/portfolio-Victor-Justesen" tags="JavaScript, React, CSS, HTML" description="Denne hjemmeside "/>
                 
-                
+                <Work jobname="Portfolio" glink="https://github.com/VictorJustesen/portfolio-Victor-Justesen" tags="JavaScript, React, CSS, HTML" description="Denne hjemmeside "/>
             
             </div>
 
