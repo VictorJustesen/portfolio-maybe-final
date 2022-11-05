@@ -12,6 +12,8 @@ export default function Sideheaderleft(){return(
     <a  href="https://github.com/VictorJustesen"><BsGithub/></a>
     <a  href="https://github.com/VictorJustesen"><MdEmail/></a>
     <a href="https://www.facebook.com/victor.justesen/"> <BsFacebook/></a>
+    <a href="mailto: gingerlord.and.co@gmail.com" className='righttext'>Gingerlord.and.co@gmail.com</a>
     </div>
+    
 </div>
 )}

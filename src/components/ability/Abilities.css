@@ -21,7 +21,7 @@ align-items: center;
     grid-template-columns: 13rem 13rem;
     align-items: center;
     
-    gap: 1rem;
+    gap: 1.5rem;
     justify-content: center
     ;
  }

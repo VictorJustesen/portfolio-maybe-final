@@ -4,7 +4,7 @@ import './Contact.css'
 
 export default function Contact(){return(
 
-<section className='container contact__container'>
+<section id="contact"className='container contact__container'>
    
     <h1 className='heading'>Mangler i en?</h1>
     <h2 className='subheading'>lad os tage en snak om hvad jeg kan hjælpe med</h2> 

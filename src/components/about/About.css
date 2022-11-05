@@ -9,6 +9,8 @@
  .aimg{
     
     border-radius: 2rem;
+
+    border: 1px solid var(--pop);
     
     width: 100%;
 }

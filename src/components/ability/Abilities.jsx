@@ -5,7 +5,7 @@ import Work from "./work.js"
 
 export default function Abilities(){
     return(
-    <section className='container abilities__container'>
+    <section id="abilites" className='container abilities__container'>
 
         <h1 className='heading' >Kompetencer</h1>
         <h2 className='subheading'>Noget af det jeg kan lide at rode med</h2>
@@ -15,11 +15,11 @@ export default function Abilities(){
                 
         <div className="skills"> 
             
-            <Skill text="ReactJS" classtext="devicon-react-original-wordmark colored" level="mellem"/>
+            <Skill text="ReactJS" classtext="devicon-react-original colored" level="mellem"/>
             <Skill text="Python" classtext="devicon-python-plain colored" level="mellem"/>
             <Skill text="HTML5" classtext="devicon-html5-plain colored" level="mellem"/>
             <Skill text="CSS" classtext="devicon-css3-plain colored" level="mellem"/>
-            <Skill text="Github" classtext="devicon-github-original-wordmark colored" level="mellem"/>
+            <Skill text="Github" classtext="devicon-github-original colored" level="mellem"/>
             <Skill text="Java" classtext="devicon-java-plain colored" level="mellem"/>
             <Skill text="Git" classtext="devicon-git-plain colored" level="mellem"/>
             <Skill text="JavaScript" classtext="devicon-javascript-plain colored" level="mellem"/>
