@@ -4,7 +4,7 @@ justify-content: center;
 
 text-align: left ;
 align-self: center;
-margin-top: 6rem;
+margin-top: 12rem;
 }
 
 .laheading{
@@ -17,12 +17,12 @@ margin-top: 6rem;
 }
 
 .lasubheading {color:var(--textoff);
-    font-size: 3rem;
+    font-size: 4rem;
 font-weight: bold;}
     
 
 .latext{
-    width: 50%;
+    width: 65%;
   text-align: left ;
   font-weight: bold
   
