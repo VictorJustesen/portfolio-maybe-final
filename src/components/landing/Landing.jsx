@@ -4,7 +4,11 @@ import './Landing.css'
 
 export default function Landing(){return(
 <section  className='container landing__container'>
-    <h4 id="landing" className='lasubheading'>Hej! Mit navn er</h4>
+
+  
+  <h4 id="landing" className='lasubheading'>Hej! Mit navn er</h4>
+
+    
 
     <h1 className='laheading' >Victor Justesen</h1>
     <h2 className='lasubheading'> Jeg har brug for et arbejde</h2>
@@ -20,5 +24,6 @@ export default function Landing(){return(
     <a className='btn'>Resume</a>
     <a className='btn'>Kontakt</a>
     </div>
+
 </section>
 )}

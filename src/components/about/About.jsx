@@ -7,6 +7,7 @@ export default function About(){return(
         
 <section className='container about__container'>
 <h1 id="about"className='heading'>Om mig</h1>
+
     <div className='aimgb'>
 
     <img className='aimg' src={ME} alt="me"/>

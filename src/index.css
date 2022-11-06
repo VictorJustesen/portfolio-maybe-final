@@ -12,9 +12,12 @@ border: 0;
 outline: 0;
 list-style: none;
 text-decoration: none;
-
+animation:fadeIn 3s;
 
 }
+@keyframes fadeIn{
+  0%{opacity: 0;}
+100%{opacity:1;}}
 
 
 :root{
