@@ -22,7 +22,7 @@ export default function Landing(){
         og leder efter et sted hvor jeg kan bruge, og viderudvikle mine it evner.
         Lige nu er jeg rimelig hooked på at lave hjemmesider og andet front-end arbejde, men det kan hurtigt ændre sig
         </p>
-        <div className='space'></div>
+ <div className='space'></div>
         <p  className='text'style={{marginTop:"3px"}}> lyder det spændende? så kan du se mere om mig på siden her</p>
     </div>
     <div className='labtn'>

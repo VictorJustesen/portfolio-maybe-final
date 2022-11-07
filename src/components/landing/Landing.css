@@ -2,10 +2,10 @@
 flex-direction: column;
 text-align: left ;
 align-self: center;
-margin-top: 12rem;
+margin-top: 14rem;
 }
 .firstlasubheading {color:var(--textoff);
-  font-size: 4rem;
+  font-size: 3rem;
 font-weight: bold;
 animation: fadeIn 0.5s;
 animation-fill-mode: both;
@@ -15,18 +15,22 @@ animation-fill-mode: both;
 .laheading{
     color: var(--pop);
     font-size: 5rem;
-    font-weight: bold;
+  
     animation: fadeIn 0.5s;
     animation-fill-mode: both;
   animation-delay: 0.25s;
+  margin-block-start: -2%;
+  margin-block-end: -2%
+ 
     
  
     
 }
 
 .lasubheading {color:var(--textoff);
-    font-size: 4rem;
+    font-size: 3.5rem;
 font-weight: bold;
+margin-bottom: 1rem;
 animation: fadeIn 0.5s ease backwards;
 animation-fill-mode: both;
 animation-delay: 0.5s;
@@ -45,6 +49,7 @@ animation-delay: 0.5s;
 
 .labtn {align-self: center;
 margin-top: 3rem;
+
 }
 
 .labtn > a{

@@ -6,9 +6,9 @@ import { useInView } from 'react-intersection-observer';
 export default function About(){
     
     const { ref:first, inView:infirst } = useInView({"triggerOnce": true, "delay": 350 ,"threshold":1});
-    const { ref:second, inView:insecond } = useInView({"triggerOnce": true, "delay": 750 ,});
-    const { ref:third, inView:inthird } = useInView({"triggerOnce": true, "delay": 1000,"threshold":0.5 });
-    const { ref:fourth, inView:infourth } = useInView({"triggerOnce": true, "delay": 1200,"threshold":0.5 });
+    const { ref:second, inView:insecond } = useInView({"triggerOnce": true, "delay": 1200 ,});
+    const { ref:third, inView:inthird } = useInView({"triggerOnce": true, "delay": 500,"threshold":0.5 });
+    const { ref:fourth, inView:infourth } = useInView({"triggerOnce": true, "delay": 750,"threshold":0.5 });
     
     return(
         

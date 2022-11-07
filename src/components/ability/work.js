@@ -4,7 +4,7 @@ import { useInView } from 'react-intersection-observer';
 
 export default function Work(props){
 
-    const { ref:first, inView:infirst } = useInView({"triggerOnce": true, "delay": 750, "threshold":1 });
+    const { ref:first, inView:infirst } = useInView({"triggerOnce": true, "delay": 500, "threshold":1 });
 
     return(
         <div ref={first}className={`${infirst ? "fadeIn work" : "hidden"}`}>
@@ -15,9 +15,9 @@ export default function Work(props){
         <div className="buttons">
             <a className="btn" href="">Demo</a>
             <a className="btn" href={props.glink}>Github</a>
-        </div>
-        {props.tags}
-        </div>
+        </div >
+        <div className="jobdesc">{props.tags}</div>
+        </div >
     </div>
 
 
