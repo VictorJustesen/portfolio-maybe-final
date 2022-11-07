@@ -29,5 +29,23 @@ display: flex;
     writing-mode: vertical-rl;
     text-orientation: mixed;
 font-size: 0.8rem;
-color: var(--pop);}
+color: var(--pop);
+animation: fadeIn 0.5s;
+    animation-fill-mode: both;
+  animation-delay: 1.25s;}
 
+.linkedin{animation: fadeIn 0.5s;
+    animation-fill-mode: both;
+  animation-delay: 0.25s;}
+
+  .github{animation: fadeIn 0.5s;
+    animation-fill-mode: both;
+  animation-delay: 0.5s;}
+
+  .mail{animation: fadeIn 0.5s;
+    animation-fill-mode: both;
+  animation-delay: 0.75s;}
+
+  .facebook{animation: fadeIn 0.5s;
+    animation-fill-mode: both;
+  animation-delay: 1s;}

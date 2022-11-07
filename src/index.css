@@ -12,14 +12,24 @@ border: 0;
 outline: 0;
 list-style: none;
 text-decoration: none;
-animation:fadeIn 3s;
+
+
 
 }
 @keyframes fadeIn{
-  0%{opacity: 0;}
-100%{opacity:1;}}
+  0%{transform:translate(0px, 50px); opacity: 0;}
+  100%{transform:translate(0px, 0); opacity: 1; }
+}
 
 
+
+.fadeIn
+{animation: fadeIn 0.5s;
+  
+}
+
+
+.hidden{opacity: 0;}
 :root{
   --bg: #1f1f38;
   --bgoff:#112240;
@@ -63,7 +73,7 @@ section {
 
 .heading {color: var(--pop);
 font-size: 3rem;
-margin: 3rem;
+margin: 2rem;
 }
 .subheading {color:var(--textoff);
 font-size: 2rem;
@@ -99,6 +109,8 @@ margin: 0.5rem;
 width: 100%;
 object-fit: cover;}
 .container{width: var(--container-container-width-lg)}
+
+
 
 @media screen and (max-width: 1024px) {
   .container {

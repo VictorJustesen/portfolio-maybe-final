@@ -2,11 +2,16 @@ import React from 'react'
 import './Landing.css'
 
 
-export default function Landing(){return(
-<section  className='container landing__container'>
+export default function Landing(){
+    
+    
+   
+    
+    return(
+<section className='container landing__container'>
 
   
-  <h4 id="landing" className='lasubheading'>Hej! Mit navn er</h4>
+  <h4 id="landing" className='firstlasubheading'>Hej! Mit navn er</h4>
 
     
 
@@ -22,8 +27,8 @@ export default function Landing(){return(
     </div>
     <div className='labtn'>
     <a className='btn'>Resume</a>
-    <a className='btn'>Kontakt</a>
+    <a  className='btn'>Kontakt</a>
     </div>
-
-</section>
+<div id="about"></div>
+</section >
 )}

@@ -3,6 +3,11 @@ import './Footer.css'
 
 
 export default function Footer(){return(
-
-<div className='footer'></div>
+<section>
+<div className='space'></div>
+<div className='space'></div>
+<div className='space'></div>
+<div className='space'></div>
+<div className='space'></div>
+</section>
 )}

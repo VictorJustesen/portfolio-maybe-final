@@ -13,6 +13,7 @@
     border: 1px solid var(--pop);
     
     width: 90%;
+    
 }
 
 .aimgb{
@@ -21,9 +22,12 @@
    gap: 10%; 
    }
    
-.about__text{margin-top: 2rem;}
+  
 .space{margin-top: 3rem;}
  
+
+
+
 
    /* ================ MEDIA QUERIES (MEDIUM DEVICES) ================= */
 @media screen and (max-width: 1024px) {

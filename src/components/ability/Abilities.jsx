@@ -2,13 +2,18 @@ import React from 'react'
 import './Abilities.css'
 import Skill from "./Ability"
 import Work from "./work.js"
+import { useInView } from 'react-intersection-observer';
 
 export default function Abilities(){
-    return(
-    <section id="abilites" className='container abilities__container'>
 
-        <h1 className='heading' >Kompetencer</h1>
-        <h2 className='subheading'>Noget af det jeg kan lide at rode med</h2>
+    const { ref:first, inView:infirst } = useInView({"triggerOnce": true, "delay": 250, "threshold":1 });
+    const { ref:second, inView:insecond } = useInView({"triggerOnce": true, "delay":  500,"threshold":1 });
+
+    return(
+    <section  className='container abilities__container'>
+
+        <h1 id="abilites" ref={first} className={`${infirst ? "fadeIn heading" : "hidden"}`} >Kompetencer</h1>
+        <h2 ref={second} className={`${insecond ? "fadeIn subheading" : "hidden"}`}>Noget af det jeg kan lide at rode med</h2>
         <div className='portfolio'>
       
             <div>

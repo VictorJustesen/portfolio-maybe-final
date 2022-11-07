@@ -1,9 +1,14 @@
 import React from "react"
 
+import { useInView } from 'react-intersection-observer';
+
 export default function Ability(props){
+
+  const { ref:first, inView:infirst } = useInView({"triggerOnce": true, "delay": 750, "threshold":1 });
+
     return(
 
-        <div className="skill">
+        <div ref={first}className={`${infirst ? "fadeIn skill" : "hidden"}`}>
             
           
               
