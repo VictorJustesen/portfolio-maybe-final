@@ -16,7 +16,7 @@ export default function Abilities(){
         <h2 ref={second} className={`${insecond ? "fadeIn subheading" : "hidden"}`}>Noget af det jeg kan lide at rode med</h2>
         <div className='portfolio'>
       
-            <div>
+            
                 
         <div className="skills"> 
             
@@ -29,7 +29,7 @@ export default function Abilities(){
             <Skill text="Git" classtext="devicon-git-plain colored" level="mellem"/>
             <Skill text="JavaScript" classtext="devicon-javascript-plain colored" level="mellem"/>
         </div>
-        </div>
+        
       
 
         

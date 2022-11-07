@@ -9,12 +9,14 @@
     text-align: center;
     align-items: center;
     margin-top: 12rem;
+    width: 40rem;
     
 }
 
 @media screen and (max-width: 600px) {
     .contact__container {
-      width: 75%;
+      margin-top: 10rem;
+      width:20rem;
       
     }
   

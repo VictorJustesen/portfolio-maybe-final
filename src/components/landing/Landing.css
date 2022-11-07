@@ -1,7 +1,5 @@
 .landing__container{display: flex;
 flex-direction: column;
-
-
 text-align: left ;
 align-self: center;
 margin-top: 12rem;
@@ -87,9 +85,42 @@ margin-top: 3rem;
         align-items: center;
         justify-content: center;
         text-align: center;
+        margin-top: 4rem;
+        display: flex;
+        flex-direction: column;
+      
     }
+
   
+
+    .latext
+    {display: flex; 
+      flex-direction: column;
+      text-align: center;
+    } 
+    .latext>*
+    {
+      align-self:center ;
+      
+    } 
+  .laheading{
+   
+    font-size: 2.5rem;
+    
+    
  
+    
+}
+
+.lasubheading {color:var(--textoff);
+    font-size: 1.75rem;
+
+}
+.firstlasubheading {color:var(--textoff);
+  font-size: 1.75rem;
+}
+
+
     }
   
   

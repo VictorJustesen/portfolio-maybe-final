@@ -52,13 +52,35 @@
   }
   
   /* ================ MEDIA QUERIES (SMALL DEVICES) ================= */
+  .about__container{margin-top: 6rem;}
   @media screen and (max-width: 600px) {
-    .aimg {
-      width: 90%;
+     .aimgb {
+      display: flex;
+      flex-direction: column;
       
+  
+    }
+    .abouttext{margin-top: 1rem;
+   
+    justify-content: center;
+    align-items: center;
+    }
+    .aimg {
+      width: 100%;
+      margin: 1rem auto 2rem;
+    
     }
   
- 
+    .aimgb >div {
+      
+      width:65%;
+      align-self: center;
+    }
+  .abouttext
+{display: flex; 
+  flex-direction: column;
+align-self: center
+} 
     }
   
   

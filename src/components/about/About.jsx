@@ -7,8 +7,8 @@ export default function About(){
     
     const { ref:first, inView:infirst } = useInView({"triggerOnce": true, "delay": 350 ,"threshold":1});
     const { ref:second, inView:insecond } = useInView({"triggerOnce": true, "delay": 750 ,});
-    const { ref:third, inView:inthird } = useInView({"triggerOnce": true, "delay": 1000,"threshold":1 });
-    const { ref:fourth, inView:infourth } = useInView({"triggerOnce": true, "delay": 1200,"threshold":1 });
+    const { ref:third, inView:inthird } = useInView({"triggerOnce": true, "delay": 1000,"threshold":0.5 });
+    const { ref:fourth, inView:infourth } = useInView({"triggerOnce": true, "delay": 1200,"threshold":0.5 });
     
     return(
         
@@ -19,7 +19,7 @@ export default function About(){
 
     <img ref={second} className={`${insecond ? "fadeIn aimg" : "hidden"}`} src={ME} alt="me"/>
     
-   <div>
+   <div className='abouttext'>
     <h5 ref={third} className={`${inthird ? "fadeIn text" : "hidden"}`}>
 Jeg er en ung mand på 21 som nyder liver på DTU hvor jeg læser softwareteknologi.
  Jeg har dog et stort ønske om at kunne bruge mine evner i et mere proffesionelt miljø,

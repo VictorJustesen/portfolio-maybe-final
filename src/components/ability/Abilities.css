@@ -12,6 +12,8 @@
  .portfolio{display: flex;
 flex-direction: row;
 align-items: center;
+
+
     
     
     justify-content: center;}
@@ -90,11 +92,28 @@ margin-left: 2rem;
 
     /* ================ MEDIA QUERIES (SMALL DEVICES) ================= */
     @media screen and (max-width: 600px) {
-        .works{
-           width: 80%;
-           align-self: center;
+        .abilities__container{margin-top: 5rem;}
+        
+          .works {
+            margin-top: 3rem;
+          }
+        
+          .jobdesc{width:60%;}
+          
+          .devicons{
+            text-align: center;
+            font-size: 3rem;}
+            .skills{
+    
+                display:grid ;
+                grid-template-columns: 10rem 10rem;
+                align-items: center;
+                
+                gap: 1rem;
+                justify-content: center
+                ;
+             }
+             .works{
+                margin-left: 0rem;
+                }
         }
-      
-     
-        }
-      

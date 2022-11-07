@@ -1,12 +1,14 @@
-#left {
+.left {
     
 position: fixed;
 top: 0 ;
-bottom: 0;
 height: 100%;
 background-color: var(--bg);
 width: 4rem;
-overflow: hidden;
+
+justify-content: center;
+text-align: center;
+
 
 
 }
@@ -32,7 +34,8 @@ font-size: 0.8rem;
 color: var(--pop);
 animation: fadeIn 0.5s;
     animation-fill-mode: both;
-  animation-delay: 1.25s;}
+  animation-delay: 1.25s;
+font-size: 1.5rem;}
 
 .linkedin{animation: fadeIn 0.5s;
     animation-fill-mode: both;
@@ -49,3 +52,43 @@ animation: fadeIn 0.5s;
   .facebook{animation: fadeIn 0.5s;
     animation-fill-mode: both;
   animation-delay: 1s;}
+
+
+   /* ================ MEDIA QUERIES (SMALL DEVICES) ================= */
+   @media screen and (max-width: 600px) {
+    .shicons{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: center;
+        margin-top: 3rem;
+    }
+
+    .righttext{
+        margin-top: 0rem;
+        writing-mode: horizontal-tb;
+}
+
+
+    .left {
+    position:sticky;
+    width: max-content;
+      align-self: center;
+      height: 4rem;
+        width: 5rem;
+        background-color: var(black);
+        width: 4rem;
+        overflow: visible ;
+        
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        }
+ 
+    }
+  
+  
