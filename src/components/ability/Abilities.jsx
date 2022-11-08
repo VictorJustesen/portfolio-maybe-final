@@ -6,22 +6,22 @@ import { useInView } from 'react-intersection-observer';
 
 export default function Abilities(){
 
-    const { ref:first, inView:infirst } = useInView({"triggerOnce": true, "delay": 250, "threshold":1 });
-    const { ref:second, inView:insecond } = useInView({"triggerOnce": true, "delay":  500,"threshold":1 });
+    const { ref:first, inView:infirst } = useInView({"triggerOnce": true, "delay": 200, "threshold":0.19 });
+    const { ref:second, inView:insecond } = useInView({"triggerOnce": true, "delay":  300,"threshold":0.05 });
 
     return(
     <section  className='container abilities__container'>
 
-        <h1 id="abilites" ref={first} className={`${infirst ? "fadeIn heading" : "hidden"}`} >Kompetencer</h1>
-        <h2 ref={second} className={`${insecond ? "fadeIn subheading" : "hidden"}`}>Noget af det jeg kan lide at rode med</h2>
-        <div className='portfolio'>
+        <h1 id="abilites"  className={`${infirst ? "fadeIn heading" : "hidden"}`} >Kompetencer</h1>
+        <h2  className={`${insecond ? "fadeIn subheading" : "hidden"}`}>Noget af det jeg kan lide at rode med</h2>
+        <div ref={second} className='portfolio'>
       
             
                 
-        <div className="skills"> 
+        <div ref={first} className="skills"> 
             
-            <Skill text="ReactJS" classtext="devicon-react-original colored" level="mellem"/>
-            <Skill text="Python" classtext="devicon-python-plain colored" level="mellem"/>
+            <Skill  text="ReactJS" classtext="devicon-react-original colored" level="mellem"/>
+            <Skill ref={second} text="Python" classtext="devicon-python-plain colored" level="mellem"/>
             <Skill text="HTML5" classtext="devicon-html5-plain colored" level="mellem"/>
             <Skill text="CSS" classtext="devicon-css3-plain colored" level="mellem"/>
             <Skill text="Github" classtext="devicon-github-original colored" level="mellem"/>
@@ -35,8 +35,8 @@ export default function Abilities(){
         
             <div className="works">
               
-                <Work jobname="Elon Musk promise timeline" 
-                description="Med denne side kan man følge med i Elon musks tidslinje på løfter" tags="React, CSS, HTML, JavaScript"/>
+            <Work jobname="Portfolio" glink="https://github.com/VictorJustesen/portfolio-Victor-Justesen" tags="JavaScript, React, CSS, HTML" description="Denne hjemmeside "/>
+
                
                 <Work jobname="Portfolio" glink="https://github.com/VictorJustesen/portfolio-Victor-Justesen" tags="JavaScript, React, CSS, HTML" description="Denne hjemmeside "/>
                 
