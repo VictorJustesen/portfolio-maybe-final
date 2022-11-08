@@ -1,29 +1,78 @@
-.contact__container{
-    align-self: center;
-    justify-items: center;
-    border-radius: 2rem;
-    background-color: var(--bgoff);
-    border: 1px solid var(--pop);
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    margin-top: 12rem;
-    width: 50rem;
-    
+.contact__container {
+  
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+ align-self: center;
+ background-color: var(--bgoff);
+ border-radius: 2rem;
+ border: 1px solid var(--pop);
+ width: 70%;
+ 
 }
+.bo{align-self: center;
+  width: 80%;
+  justify-content: center;
+  
+  
+  
+}
+.form {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  width:80%;
+  
+  margin-left: auto;
+}
+.btn{background-color: var(--bgoff);
+margin-bottom: 1rem;
+margin-left: 0;
+border:2px solid var(--pop);}
+input,
+textarea {
+  width: 100%;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background: transparent;
+  border: 2px solid var(--pop);
+  resize: none;
+  font-size:  1.1rem;;
+  
+  color: var(--offwhite);}
+  input{width: 75%;}
+  textarea{height:11rem}
+  ::placeholder{color: var(--pop);}
+/* ================ MEDIA QUERIES (MEDIUM DEVICES) ================= */
 
-@media screen and (max-width: 1024px) { 
-  .contact__container {
-  margin-top: 10rem;
-  width:40rem;}}
+
+/* ================ MEDIA QUERIES (SMALL DEVICES) ================= */
 @media screen and (max-width: 600px) {
-    .contact__container {
-      margin-top: 10rem;
-      width:20rem;
-      
-    }
-  
+  .container.contact__container {
+    width: 100%;
+    border: 0;
+    background-color: var(--bg);
+    
+  }
+
+  .form {
+    width: 85%;
+    gap: 1rem;
+    align-self: center;
+    margin:1.5rem; 
+    margin-bottom:0
+    
+  }
+.bo{align-self: center;
+  width: 80%;
+
+
+  background-color: var(--bgoff);
+  border-radius: 2rem;
+  border: 1px solid var(--pop);}
+.btn{align-self: center;}
+  input,textarea {width: 100%;font-size: 1rem; padding: 1rem;}
+  textarea{height: 8rem;}
 }
-  
-  

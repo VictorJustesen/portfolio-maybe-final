@@ -27,7 +27,7 @@ export default function Landing(){
     </div>
     <div className='labtn'>
     <a className='btn'>Resume</a>
-    <a  className='btn'>Kontakt</a>
+    <a href='#contact' className='btn'>Kontakt</a>
     </div>
 <div id="about"></div>
 </section >

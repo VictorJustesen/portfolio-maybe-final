@@ -18,7 +18,7 @@
 
 .aimgb{
    display: grid;
-  grid-template-columns: 45% 50%;
+  grid-template-columns: 50% 50%;
   gap: 10%; 
   }
   
