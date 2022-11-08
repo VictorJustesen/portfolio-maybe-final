@@ -24,7 +24,7 @@ text-decoration: none;
 
 
 .fadeIn
-{animation: fadeIn 1s;
+{animation: fadeIn 0.75s;
   
 }
 

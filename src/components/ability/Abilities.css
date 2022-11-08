@@ -56,10 +56,10 @@ border-radius: 2rem;
     
 .job:hover {background-color: var(--pop);
     transition: var(--trans);scale: 1.1;
-    color: var(--bg);
+    color: var(--);
 }
 
-.job:hover .btn{color: var(--bg);
+.job:hover .btn{color: var(--pop);
 border: 1px solid var(--bg)}
 .job:hover .jobname{color: var(--bg)}
 .buttons{display:flex ;

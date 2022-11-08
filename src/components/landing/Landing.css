@@ -2,7 +2,7 @@
 flex-direction: column;
 text-align: left ;
 align-self: center;
-margin-top: 14rem;
+margin-top: 12rem;
 }
 .firstlasubheading {color:var(--textoff);
   font-size: 3rem;
@@ -38,7 +38,7 @@ animation-delay: 0.5s;
     
 
 .latext{
-    width: 65%;
+    width: 69%;
   text-align: left ;
   font-weight: bold;
   animation: fadeIn 0.5s;
