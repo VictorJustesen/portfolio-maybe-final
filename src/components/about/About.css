@@ -1,87 +1,87 @@
 .about__container{align-self: center;
-   text-align: center; 
-   
-   margin-top: 12rem;
+  text-align: center; 
+  
+  margin-top: 12rem;
 }
 
 
 
- .aimg{
-    
-    border-radius: 2rem;
+.aimg{
+   
+   border-radius: 2rem;
 
-    border: 1px solid var(--pop);
-    
-    width: 90%;
-    
+   border: 1px solid var(--pop);
+   
+   width: 90%;
+   
 }
 
 .aimgb{
-    display: grid;
-   grid-template-columns: 45% 50%;
-   gap: 10%; 
-   }
-   
-  
-.space{margin-top: 3rem;}
- 
-
-
-
-
-   /* ================ MEDIA QUERIES (MEDIUM DEVICES) ================= */
-@media screen and (max-width: 1024px) {
-    .aimgb {
-      display: flex;
-      flex-direction: column;
-      
-  
-    }
-    .about__text{margin-top: 1rem;}
-    .aimg {
-      width: 100%;
-      margin: 1rem auto 2rem;
-    
-    }
-  
-    .aimgb >div {
-      
-      width:65%;
-      align-self: center;
-    }
+   display: grid;
+  grid-template-columns: 45% 50%;
+  gap: 10%; 
   }
   
-  /* ================ MEDIA QUERIES (SMALL DEVICES) ================= */
-  .about__container{margin-top: 6rem;}
-  @media screen and (max-width: 600px) {
-     .aimgb {
-      display: flex;
-      flex-direction: column;
-      
-  
-    }
-    .abouttext{margin-top: 1rem;
+ 
+.space{margin-top: 3rem;}
+
+
+
+
+
+  /* ================ MEDIA QUERIES (MEDIUM DEVICES) ================= */
+@media screen and (max-width: 1024px) {
+   .aimgb {
+     display: flex;
+     flex-direction: column;
+     
+ 
+   }
+   .about__text{margin-top: 1rem;}
+   .aimg {
+     width: 65%;
+     margin: 1rem auto 2rem;
    
-    justify-content: center;
-    align-items: center;
-    }
-    .aimg {
-      width: 100%;
-      margin: 1rem auto 2rem;
-    
-    }
+   }
+ 
+   .aimgb >div {
+     
+     width:65%;
+     align-self: center;
+   }
+ }
+ 
+ /* ================ MEDIA QUERIES (SMALL DEVICES) ================= */
+ .about__container{margin-top: 6rem;}
+ @media screen and (max-width: 600px) {
+    .aimgb {
+     display: flex;
+     flex-direction: column;
+     
+ 
+   }
+   .abouttext{margin-top: 1rem;
   
-    .aimgb >div {
-      
-      width:65%;
-      align-self: center;
-    }
-  .abouttext
+   justify-content: center;
+   align-items: center;
+   }
+   .aimg {
+     width: 100%;
+     margin: 1rem auto 2rem;
+   
+   }
+ 
+   .aimgb >div {
+     
+     width:65%;
+     align-self: center;
+   }
+ .abouttext
 {display: flex; 
-  flex-direction: column;
+ flex-direction: column;
 align-self: center
 } 
-    }
-  
-  
-  
+   }
+ 
+ 
+ 

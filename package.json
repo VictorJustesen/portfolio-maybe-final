@@ -1,5 +1,6 @@
 {
   "name": "react-basic-template",
+  "homepage":"http://victorweb.tech",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

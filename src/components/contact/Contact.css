@@ -13,6 +13,10 @@
     
 }
 
+@media screen and (max-width: 1024px) { 
+  .contact__container {
+  margin-top: 10rem;
+  width:40rem;}}
 @media screen and (max-width: 600px) {
     .contact__container {
       margin-top: 10rem;
