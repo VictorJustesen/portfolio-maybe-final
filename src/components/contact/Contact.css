@@ -14,7 +14,7 @@
 .bo{align-self: center;
   width: 80%;
   justify-content: center;
-  
+  margin-block-start: -1.5%;
   
   
 }
@@ -23,10 +23,13 @@
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
-  width:80%;
   
   margin-left: auto;
+  
+  
 }
+.ha{margin-block-start: 2%;
+  margin-block-end: -4%}
 .btn{background-color: var(--bgoff);
 margin-bottom: 1rem;
 margin-left: 0;
@@ -43,7 +46,8 @@ textarea {
   
   color: var(--offwhite);}
   input{width: 75%;}
-  textarea{height:11rem}
+  textarea{height:11rem;
+    }
   ::placeholder{color: var(--pop);}
 /* ================ MEDIA QUERIES (MEDIUM DEVICES) ================= */
 

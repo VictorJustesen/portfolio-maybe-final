@@ -18,7 +18,7 @@ const Contact = () => {
   return (
     <section className='container contact__container' id='contact'>
         <div className='contacttext'> 
-    <h1 className='heading'>Brug for hjælp?</h1>
+    <h1 className='ha heading'>Brug for hjælp?</h1>
     
     <h2 className='subheading'>send en besked! Så kan vi snakke om det</h2>
     </div>
