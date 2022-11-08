@@ -12,13 +12,14 @@ function App() {
 	return (
 		<div className='App'>
 			<Sideheaderleft/>
-			<Sideheaderright/>
+			
 			<Landing/>
 			<About/>
 			<Abilities/>
 			<Nav/>
 			<Contact/>
 			<Footer/>
+			<Sideheaderright/>
 		</div>
 	);
 }
