@@ -16,7 +16,7 @@ export default function Work(props){
             <a className="btn" target="blank" href="">Demo</a>
             <a className="btn" target="blank" href={props.glink}>Github</a>
         </div >
-        <div className="jobdesc">{props.tags}</div>
+        <div className="jobtags">{props.tags}</div>
         </div >
     </div>
 

@@ -38,7 +38,7 @@ background-color: var(--bgoff)
     
 }
 
-.skilldesc{color: var(--pop); font-size: 1.5rem;}
+.skilldesc{color: var(--pop); font-size: 1.5rem;margin-block-start: -5.5%;}
 .skill:hover {background-color: var(--pop);
     transition: var(--trans);
     scale: 1.1;
@@ -56,13 +56,13 @@ border-radius: 2rem;
     
 .job:hover {background-color: var(--pop);
     transition: var(--trans);scale: 1.1;
-    color: var(--);
+    color: var(--bg);
 }
 
-.job:hover .btn{color: var(--pop);
+.job:hover .btn{
 border: 1px solid var(--bg)}
 .job:hover .jobname{color: var(--bg)}
-.buttons{display:flex ;
+.buttons{display:flex ;margin-block-end: -5%;
    
     align-items: center; 
     justify-content: center;}
@@ -72,9 +72,10 @@ flex-direction: column;
 margin-left: 2rem;
 }
 
-.jobname{color: var(--pop);margin: 0.2rem; margin-bottom: 0;}
-.jobdesc{width:90%;}
-
+.jobname{color: var(--pop);margin: 0.2rem; margin-bottom: 0;margin-block-end: -2%;}
+.jobdesc{width:90%; margin-bottom: 0.2rem;}
+.jobtags{width:90%; margin-block-start: -2%; margin-bottom: 0.2rem;}
+.btn:hover{color: var(--bg);}
 @media screen and (max-width: 1024px) {
     .portfolio {
       display: flex;
@@ -117,3 +118,20 @@ margin-left: 2rem;
                 margin-left: 0rem;
                 }
         }
+
+        @media only screen and (min-width: 1400px)  {.skills{
+    
+        
+          grid-template-columns: 13rem 13rem 13rem 13rem;
+          
+       }
+       .portfolio{display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .works{display: flex;
+        flex-direction: row;
+        margin-left: 2rem;
+        }
+    
+    }

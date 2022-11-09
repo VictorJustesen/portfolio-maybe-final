@@ -22,12 +22,12 @@ const Contact = () => {
         <div ref={ref}className="contacttext"> 
     <h1 className='ha heading'>Brug for hjælp?</h1>
     
-    <h2 className='subheading'>Send en besked! Så kan vi snakke om det</h2>
+    <h2 className='subheading'>Send en mail! Så kan vi snakke om det</h2>
     </div>
     <div className='bo'>
         <form className='form' ref={form} onSubmit={sendEmail}>
           <input type="text" name='name' placeholder='Dit navn' required />
-          <input type="email" name='email' placeholder='Din email' required />
+          <input type="email" name='email' placeholder='Din mail' required />
           <textarea name="message" rows="7" placeholder="Din besked" required ></textarea>
           <button type='submit' className='btn'>Send mail</button>
         </form>
